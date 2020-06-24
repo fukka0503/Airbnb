@@ -1,3 +1,29 @@
 * {
   box-sizing: border-box;
 }
+
+.header {
+  height: 81px;
+  background-color: #ffffff;
+  .icon {
+    &-group {
+      height: 34px;
+      width: 34px;
+      &-list {
+        a {
+          color: black;
+          text-decoration: none;
+        }
+      }
+    }
+    &-login {
+
+    }
+  }
+}
+
+.main {
+  background: image-url('toppage.jpg');
+  height: 501px;
+  width: 1456px;
+}
