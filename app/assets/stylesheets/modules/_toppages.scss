@@ -56,5 +56,36 @@
     height: 423px;
     background-color: white;
     margin-left: 879px;
+    b {
+      font-size: 40px;
+    }
+    p {
+      font-size: 16px;
+      color: #484848;
+
+    }
+    &-area {
+
+    }
+    &-room {
+
+    }
+    &-people {
+
+    }
+    .icon-btn {
+      background-color: #FF5A5F;      
+      width: 396px;
+      height: 48px;
+      font-size: 16px;
+      text-align: center;
+      line-height: 48px;
+      border-radius: 4px;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        list-style: none;
+      }
+    }
   }
 }
