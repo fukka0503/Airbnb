@@ -10,10 +10,20 @@
     display: flex;
     justify-content: space-between;
     &-group {
+      height: 81px;
       display: flex;
+      line-height: 81px;
+      margin-left: 40px;
+      font-size: 34px;
       a {
         color: #484848;
         text-decoration: none;
+        margin-left: 40px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+      a:hover {
+        text-decoration:underline;
       }
     }
   
@@ -38,6 +48,13 @@
 
 .main {
   background: image-url('toppage.jpg');
-  height: 501px;
   width: 1456px;
+  height: 501px;
+  padding-top: 15px;
+  &-search {
+    width: 460px;
+    height: 423px;
+    background-color: white;
+    margin-left: 879px;
+  }
 }
