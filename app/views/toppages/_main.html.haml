@@ -1,32 +1,33 @@
 .main
-  .main-search
-    %b Airbnbホストになって、暮らしをレベルアップ
-    %p 宿泊施設の内容を記入
-    .main-search-area
-      %input#payment_card_no.input-default{data: { input: { type: "card"}},  maxlength: "19", placeholder: "東京",  type: "text",  value: "" }/
-    .main-search-room
-      %select#payment_card_expire_mm.select-default
-        %option{:value => "01"} まるまる貸し切り
-        %option{:value => "02"} 個室
-        %option{:value => "02"} シェアルーム
-    .main-search-people
-      %select#payment_card_expire_yy.select-default
-        %option{:value => "01"} ゲスト1人
-        %option{:value => "02"} ゲスト2人
-        %option{:value => "02"} ゲスト3人
-        %option{:value => "01"} ゲスト4人
-        %option{:value => "02"} ゲスト5人
-        %option{:value => "02"} ゲスト6人
-        %option{:value => "01"} ゲスト7人
-        %option{:value => "02"} ゲスト8人
-        %option{:value => "02"} ゲスト9人
-        %option{:value => "02"} ゲスト10人
-        %option{:value => "02"} ゲスト11人
-        %option{:value => "02"} ゲスト12人
-        %option{:value => "02"} ゲスト13人
-        %option{:value => "02"} ゲスト14人
-        %option{:value => "02"} ゲスト15人
-        %option{:value => "02"} ゲスト16人
-    .icon-btn
-      = link_to "/" do
-        %li はじめる
+  .search
+    .search-box
+      %b Airbnbホストになって、暮らしをレベルアップ
+      %p 宿泊施設の内容を記入
+      .search-box-area
+        %input#payment_card_no.input-default{data: { input: { type: "card"}},  maxlength: "19", placeholder: "東京",  type: "text",  value: "" }/
+      .search-box-room
+        %select#payment_card_expire_mm.select-default
+          %option{:value => "01"} まるまる貸し切り
+          %option{:value => "02"} 個室
+          %option{:value => "02"} シェアルーム
+      .search-box-people
+        %select#payment_card_expire_yy.select-default
+          %option{:value => "01"} ゲスト1人
+          %option{:value => "02"} ゲスト2人
+          %option{:value => "02"} ゲスト3人
+          %option{:value => "01"} ゲスト4人
+          %option{:value => "02"} ゲスト5人
+          %option{:value => "02"} ゲスト6人
+          %option{:value => "01"} ゲスト7人
+          %option{:value => "02"} ゲスト8人
+          %option{:value => "02"} ゲスト9人
+          %option{:value => "02"} ゲスト10人
+          %option{:value => "02"} ゲスト11人
+          %option{:value => "02"} ゲスト12人
+          %option{:value => "02"} ゲスト13人
+          %option{:value => "02"} ゲスト14人
+          %option{:value => "02"} ゲスト15人
+          %option{:value => "02"} ゲスト16人
+      .search-box-btn
+        = link_to "/" do
+          %li はじめる
