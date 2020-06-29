@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 .header {
@@ -93,6 +94,32 @@
           list-style: none;
         }
       }
+    }
+  }
+}
+
+.second {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-around;
+  &-box {
+    width: 444px;
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &-text {
+
+    }
+  }
+  &-boxs {
+    width: 444px;
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &-text {
+
     }
   }
 }
