@@ -100,10 +100,11 @@
 
 .second {
   display: flex;
-  margin-top: 80px;
+  margin: 80px 200px;
   justify-content: space-around;
   &-box {
     width: 444px;
+    color: #484848;
     h3 {
       font-size: 24px;
       font-weight: bold;
@@ -114,12 +115,53 @@
   }
   &-boxs {
     width: 444px;
+    color: #484848;
     h3 {
       font-size: 24px;
       font-weight: bold;
     }
     &-text {
 
+    }
+  }
+}
+
+.third {
+  .title {
+    text-align: center;
+    h2 {
+    font-size: 60px;
+    font-weight: bold;
+    }
+  }
+  &-box {
+    display: flex;
+    margin: 80px 200px;
+    justify-content: space-around;
+    color: #484848;
+    &-icon1 {
+      .text {
+        font-size: 24px;
+        &-description {
+          font-size: 16px;
+        }
+      }
+    }
+    &-icon2 {
+      .text2 {
+        font-size: 24px;
+        &-description2 {
+          font-size: 16px;
+        }
+      }
+    }
+    &-icon3 {
+      .text3 {
+        font-size: 24px;
+        &-description3 {
+          font-size: 16px;
+        }
+      }
     }
   }
 }
