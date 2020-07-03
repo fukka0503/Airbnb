@@ -139,28 +139,52 @@
     margin: 80px 200px;
     justify-content: space-around;
     color: #484848;
+
     &-icon1 {
+      font-size: 48px;
+      width: 349.33px;
+      height:214px;
       .text {
+        h3 {
         font-size: 24px;
-        &-description {
-          font-size: 16px;
+        font-weight: bold;
         }
+      }
+      .description-one {
+        font-size: 16px;
       }
     }
     &-icon2 {
+      font-size: 48px;
       .text2 {
-        font-size: 24px;
-        &-description2 {
-          font-size: 16px;
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
         }
+      }
+      .description-two {
+        font-size: 16px;
       }
     }
     &-icon3 {
+      font-size: 48px;
       .text3 {
-        font-size: 24px;
-        &-description3 {
-          font-size: 16px;
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
         }
+      }
+      .description-three {
+        font-size: 16px;
+      }
+      a {
+        color: #008489;
+        font-size: 16px;
+        text-decoration: none;
+        list-style: none;
+      }
+      a:hover {
+        text-decoration:underline;
       }
     }
   }
