@@ -127,7 +127,7 @@
 }
 
 .third {
-  .title {
+  &-title {
     text-align: center;
     h2 {
     font-size: 60px;
@@ -142,9 +142,8 @@
 
     &-icon1 {
       font-size: 48px;
-      width: 349.33px;
-      height:214px;
       .text {
+        width: 296px;
         h3 {
         font-size: 24px;
         font-weight: bold;
@@ -152,6 +151,12 @@
       }
       .description-one {
         font-size: 16px;
+        width: 296px;
+        height:84px;
+        p {
+          width: 296px;
+          height: 84px;
+        }
       }
     }
     &-icon2 {
