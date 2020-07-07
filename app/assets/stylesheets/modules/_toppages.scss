@@ -6,6 +6,8 @@
 .header {
   height: 81px;
   background-color: #ffffff;
+  // position: fixed;
+  // width: 100%;
   .icon {
     height: 81px;
     display: flex;
@@ -130,8 +132,8 @@
   &-title {
     text-align: center;
     h2 {
-    font-size: 60px;
-    font-weight: bold;
+      font-size: 60px;
+      font-weight: bold;
     }
   }
   &-box {
@@ -139,48 +141,48 @@
     margin: 80px 200px;
     justify-content: space-around;
     color: #484848;
-
+    width: 1080px;
+    height: 300px;
     &-icon1 {
       font-size: 48px;
-      .text {
-        width: 296px;
+      width: 299px;
+      &-text {
         h3 {
-        font-size: 24px;
-        font-weight: bold;
+          font-size: 24px;
+          font-weight: bold;
         }
       }
-      .description-one {
+      &-description-one {
         font-size: 16px;
-        width: 296px;
-        height:84px;
         p {
-          width: 296px;
-          height: 84px;
         }
       }
     }
     &-icon2 {
       font-size: 48px;
-      .text2 {
+      width: 299px;
+      &-text2 {
         h3 {
           font-size: 24px;
           font-weight: bold;
         }
       }
-      .description-two {
+      &-description-two {
         font-size: 16px;
       }
     }
     &-icon3 {
       font-size: 48px;
-      .text3 {
+      width: 299px;
+      &-text3 {
         h3 {
           font-size: 24px;
           font-weight: bold;
         }
       }
-      .description-three {
+      &-description-three {
         font-size: 16px;
+        margin-bottom: 20px;
       }
       a {
         color: #008489;
