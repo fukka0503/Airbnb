@@ -1,10 +1,13 @@
 * {
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 .header {
   height: 81px;
   background-color: #ffffff;
+  // position: fixed;
+  // width: 100%;
   .icon {
     height: 81px;
     display: flex;
@@ -92,6 +95,103 @@
           text-decoration: none;
           list-style: none;
         }
+      }
+    }
+  }
+}
+
+.second {
+  display: flex;
+  margin: 80px 200px;
+  justify-content: space-around;
+  &-box {
+    width: 444px;
+    color: #484848;
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &-text {
+
+    }
+  }
+  &-boxs {
+    width: 444px;
+    color: #484848;
+    h3 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    &-text {
+
+    }
+  }
+}
+
+.third {
+  &-title {
+    text-align: center;
+    h2 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+  }
+  &-box {
+    display: flex;
+    margin: 80px 200px;
+    justify-content: space-around;
+    color: #484848;
+    width: 1080px;
+    height: 300px;
+    &-icon1 {
+      font-size: 48px;
+      width: 299px;
+      &-text {
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+      &-description-one {
+        font-size: 16px;
+        p {
+        }
+      }
+    }
+    &-icon2 {
+      font-size: 48px;
+      width: 299px;
+      &-text2 {
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+      &-description-two {
+        font-size: 16px;
+      }
+    }
+    &-icon3 {
+      font-size: 48px;
+      width: 299px;
+      &-text3 {
+        h3 {
+          font-size: 24px;
+          font-weight: bold;
+        }
+      }
+      &-description-three {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      a {
+        color: #008489;
+        font-size: 16px;
+        text-decoration: none;
+        list-style: none;
+      }
+      a:hover {
+        text-decoration:underline;
       }
     }
   }
