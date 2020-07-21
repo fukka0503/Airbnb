@@ -195,4 +195,27 @@
       }
     }
   }
+  &-host {
+    &-left {
+      &-icon {
+        font-size: 48px;
+        &-text {
+          font-size: 32px;
+          color: #484848
+          width: 433px
+          height: 240px
+        }
+        &-subtext {
+          height: 44px;
+          font-size: 16px;
+          color: #767676;
+        }
+        &-link {
+        }
+      }
+    }
+    &-right {
+      background: image-url('8e6c68cc-e714-4849-bad9-464abf58e84a(1).jpg');
+    }
+  }
 }
