@@ -6,8 +6,6 @@
 .header {
   height: 81px;
   background-color: #ffffff;
-  // position: fixed;
-  // width: 100%;
   .icon {
     height: 81px;
     display: flex;
@@ -211,11 +209,28 @@
           color: #767676;
         }
         &-link {
+          width: 224px;
+          height: 48px;
+          border: solid;
+          border-radius: 4px;
+          color: #484848;
+          // font-size: 16px;
+          text-align: center;
+          line-height: 48px;
+          a {
+            color: #484848;
+            font-size: 16px;
+            text-decoration: none;
+            list-style: none;
+            font-weight: bold;
+          }
         }
       }
     }
     &-right {
-      background: image-url('8e6c68cc-e714-4849-bad9-464abf58e84a(1).jpg');
+      background: image-url('8e6c68cc-e714-4849.jpg');
+      width: 516px;
+      height: 516px;
     }
   }
 }
